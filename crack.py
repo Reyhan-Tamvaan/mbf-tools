@@ -1,5 +1,5 @@
 if sys.version_info.major != 2:
-	sys.exit('\n\033[0;91m[WARNING] Please use python 2 version\033[0m')
+	sys.exit'\n\033[0;91m[WARNING] Please use python 2 version\033[0m'
 
 try: shutil.rmtree('app/__pycache__')
 except: pass
